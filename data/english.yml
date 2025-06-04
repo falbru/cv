@@ -1,0 +1,115 @@
+personal_info:
+  name: Falk Elvedal Bruskeland
+  email: falk.bruskeland@gmail.com
+  phone: +47 469 34 061
+  date_of_birth: 2003-11-27
+  linkedin: falbru
+  github: falbru
+  website: falbru.dev
+
+education:
+  - institution: Norwegian University of Science and Technology
+    degree: Computer Science, Master’s Degree Programme (sivilingeniør)
+    location: Trondheim, NO
+    start_date: August 2022
+    end_date: present
+
+experiences:
+  - company: Webkom
+    position: Leader \& Software Developer
+    location: Trondheim, NO
+    start_date: September 2022
+    end_date: present
+    description:
+      - Webkom is the committee that develops web solutions for the student organization Abakus. We operate abakus.no, the admission system, and the voting system for Abakus. Our services run on both our own servers and in the cloud.
+      - Full-stack developer with expertise in TypeScript, React, Next.js, Django, and Docker.
+      - Served as leader from January 2024 to February 2025. Led the committee's work and vision, and represented the committee externally. Responsible for weekly work sessions with 25 members, organizing teams and managing projects to ensure deadlines are met.
+
+  - company: itDAGENE
+    position: Board Member \& Software Developer
+    location: Trondheim, NO
+    start_date: September 2023
+    end_date: October 2024
+    description:
+      - itDAGENE is Norway's largest career fair for IT students with 80+ participating companies.
+      - Board member making decisions on behalf of 100+ students.
+      - Working as a full-stack software developer in a team of three developers. Operating and developing the website itdagene.no using React and Django.
+
+  - company: Aboveit
+    position: Summer Intern
+    location: Oslo, NO
+    start_date: June 2024
+    end_date: August 2024
+    description:
+      - Together with six other developers, developed new features for a service that digitalizes shift schedules for nurses.
+      - Worked as backend developer using Go, Gin, and Google Spanner technologies.
+      - Took initiative to develop a unit testing framework that ensures lasting code quality in the project.
+
+  - company: Kateter
+    position: Summer Intern
+    location: Oslo, NO
+    start_date: June 2023
+    end_date: August 2023
+    description:
+      - Kateter (kateter.no) is an online learning platform for university students in Norway.
+      - Worked in a team of four and developed an interactive visualization tool for mathematics using TypeScript, Next.js, and Three.js.
+
+  - company: NTNU
+    position: Teaching Assistant
+    location: Trondheim, NO
+    start_date: August 2023
+    end_date: present
+    description:
+      - Teaching Assistant in TDT4109 Information Technology, Introduction (Autumn 2023, 2024 \& 2025) and TDT4100 Object-Oriented Programming (Spring 2024).
+      - Provides guidance in Python, Java, and object-oriented programming to IT students.
+
+projects:
+  - name: Kakoune Qt
+    description:
+      - Developing a graphical user interface for a terminal-based code editor to increase user-friendliness.
+      - Developed with C++ and the Qt library, using knowledge of operating systems and network concepts such as IPC and JSON-RPC.
+    github_url: github.com/falbru/kakoune-qt
+    start_date: September 2023
+    end_date: present
+
+  - name: Chess Tournament Website
+    description:
+      - As part of a two-developer team, created a full-stack web application that has been used in two chess tournaments.
+      - Worked as backend developer developing the pairing algorithm and REST endpoints. Technologies used were Go, Gin, and MongoDB.
+    github_url: github.com/abakus-ntnu/abasjakk
+    start_date: April 2023
+    end_date: November 2023
+
+skills:
+  - name: Programming Languages
+    keywords:
+      - Go
+      - C++
+      - C
+      - C\#
+      - Java
+      - Python
+      - TypeScript
+      - JavaScript
+      - HTML/CSS
+
+  - name: Technologies
+    keywords:
+      - Git
+      - Docker
+      - Qt
+      - Gin
+      - OpenGL
+      - Google Spanner
+      - MongoDB
+      - React
+      - Next.js
+      - Three.js
+      - Node.js
+      - Bun
+      - Express.js
+      - Django
+      - Javafx
+      - Drone
+      - Cypress
+      - GNU/Linux
