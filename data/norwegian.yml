@@ -27,14 +27,34 @@ education:
 
 experiences:
   - company: Webkom
-    position: Utvikler \& Tidligere leder
+    position: Leder \& Utvikler
     location: Trondheim
     start_date: September 2022
     end_date: d.d.
     description:
       - Webkom er komiteen som utvikler nettløsninger for linjeforeningen Abakus. Vi drifter abakus.no, opptakssystemet og avstemningssystemet til Abakus. Tjenestene våre kjører både på våre egne servere og i skyen.
       - Full-stack utvikler med kompetanse innen TypeScript, React, Next.js, Django og Docker.
-      - Tiltrådte som leder i perioden januar 2024 til februar 2025. Ledet komiteens arbeid og visjon, og representerer komiteen utad. Hadde ansvar for ukentlige arbeidskvelder med 25 medlemmer, organiserer team og styrer prosjekter for å sikre at tidsfrister overholdes.
+      - Tiltrådte som leder i perioden november 2023 til februar 2025. Ledet komiteens arbeid og visjon, og representerte komiteen utad. Hadde ansvar for ukentlige arbeidskvelder med 25 medlemmer, organiserte team og styrte prosjekter for å sikre at tidsfrister ble overholdt.
+
+  - company: NTNU
+    position: Læringsassistent
+    location: Trondheim
+    start_date: August 2023
+    end_date: d.d.
+    description:
+      - Studentassistent i TDT4109 Informasjonsteknologi, grunnkurs (Høst 2023, 2024 \& 2025), TDT4100 Objektorientert programmering (Vår 2024).
+      - Undervisningsassistent i TDT4200 Parallelle Beregninger (Høst 2025).
+      - Gir veiledning i C, python og Java til IT-studenter.
+
+  - company: Capra Consulting
+    position: Teknisk Team Leder, Sommerstudent
+    location: Oslo
+    start_date: Juni 2025
+    end_date: August 2025
+    description:
+      - Konsulent utplassert hos Sikri for reimplementering av et dokumenthåndteringssystem som benyttes av kommuner og andre aktører i offentlig sektor.
+      - Utviklet full-stack med React frontend og Kotlin (Micronaut) backend, integrert med AWS-tjenester (S3, OpenSearch).
+      - Fungerte som teknisk teamleder og koordinerte daglige standup-møter, sikret fremdrift, samt kommuniserte prosjektstatus til produkteier.
 
   - company: itDAGENE
     position: Styremedlem \& Webansvarlig
@@ -43,36 +63,27 @@ experiences:
     end_date: Oktober 2024
     description:
       - itDAGENE er Norges største arbeidslivmesse for IT-studenter med 80+ deltagende bedrifter.
-      - Medlem i styret og tar beslutninger på vegne av 100+ studenter.
-      - Jobber som webansvarlig på et team med tre utviklere. Drifter og utvikler nettsiden itdagene.no med teknologiene React og Django.
+      - Medlem i styret og tok beslutninger på vegne av 100+ studenter.
+      - Jobbet som webansvarlig på et team med tre utviklere. Drifter og utviklet nettsiden itdagene.no med teknologiene React og Django.
 
   - company: Aboveit
-    position: Utvikler, Summer Intern
+    position: Utvikler, Sommerstudent
     location: Oslo
     start_date: Juni 2024
     end_date: August 2024
     description:
       - Har sammen med seks andre utviklere utviklet nye funksjoner til en tjeneste som digitaliserer vaktlister for sykepleiere.
-      - Jobbet som backend-utvikler og benyttet teknologiene Go, Gin og Google Spanner.
+      - Jobbet som fullstack-utvikler og benyttet teknologiene Go, Gin og Google Spanner i utviklingen av mikrotjenester.
       - Tok initiativ til å utvikle et rammeverk for enhetstesting som sikrer varig kodekvalitet i prosjektet.
 
   - company: Kateter
-    position: Utvikler, Summer Intern
+    position: Utvikler, Sommerstudent
     location: Oslo
     start_date: Juni 2023
     end_date: August 2023
     description:
       - Kateter (kateter.no) er en e-læringsplattform rettet mot studenter.
       - Jobbet i team med tre andre og utviklet et interaktivt visualiseringsverktøy for matematikk i TypeScript, Next.js og Three.js.
-
-  - company: NTNU
-    position: Studentassistent
-    location: Trondheim
-    start_date: August 2023
-    end_date: d.d.
-    description:
-      - Studentassistent i TDT4109 Informasjonsteknologi, grunnkurs (Høst 2023, Høst 2024) og TDT4100 Objektorientert programmering (Vår 2024).
-      - Gir veiledning i python, Java og objekt-orientert programmering til ingeniørstudenter.
 
 projects:
   - name: Kakoune Qt
@@ -99,6 +110,7 @@ skills:
       - C
       - C\#
       - Java
+      - Kotlin
       - Python
       - TypeScript
       - JavaScript
@@ -112,6 +124,8 @@ skills:
       - Gin
       - OpenGL
       - Google Spanner
+      - Micronaut
+      - Postgres
       - MongoDB
       - React
       - Next.js
@@ -123,4 +137,6 @@ skills:
       - Javafx
       - Drone
       - Cypress
+      - AWS S3
+      - AWS OpenSearch
       - GNU/Linux

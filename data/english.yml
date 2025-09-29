@@ -23,7 +23,27 @@ experiences:
     description:
       - Webkom is the committee that develops web solutions for the student organization Abakus. We operate abakus.no, the admission system, and the voting system for Abakus. Our services run on both our own servers and in the cloud.
       - Full-stack developer with expertise in TypeScript, React, Next.js, Django, and Docker.
-      - Served as leader from January 2024 to February 2025. Led the committee's work and vision, and represented the committee externally. Responsible for weekly work sessions with 25 members, organizing teams and managing projects to ensure deadlines are met.
+      - Served as leader from November 2023 to February 2025. Led the committee's work and vision, and represented the committee externally. Was responsible for weekly work sessions with 25 members, organizing teams and managing projects to ensure deadlines were met.
+
+  - company: NTNU
+    position: Student \& Teaching Assistant
+    location: Trondheim, NO
+    start_date: August 2023
+    end_date: present
+    description:
+      - Student Assistant in TDT4109 Information Technology, Introduction (Autumn 2023, 2024 \& 2025) and TDT4100 Object-Oriented Programming (Spring 2024).
+      - Teaching Assistant in TDT4200 Parallel Computing (Autumn 2025).
+      - Provides guidance in C, Python and Java programming to IT students.
+
+  - company: Capra Consulting
+    position: Technical Team Lead, Summer Intern
+    location: Oslo, NO
+    start_date: June 2025
+    end_date: August 2025
+    description:
+      - Consultant deployed at Sikri for reimplementation of a document management system used by municipalities and other public sector entities in Norway.
+      - Full-stack developer working with React frontend and Kotlin (Micronaut) backend, integrated with AWS services (S3, OpenSearch).
+      - Served as technical team leader and coordinated daily standup meetings, ensured progress, and communicated project status to the product owner.
 
   - company: itDAGENE
     position: Board Member \& Software Developer
@@ -33,10 +53,10 @@ experiences:
     description:
       - itDAGENE is Norway's largest career fair for IT students with 80+ participating companies.
       - Board member making decisions on behalf of 100+ students.
-      - Working as a full-stack software developer in a team of three developers. Operating and developing the website itdagene.no using React and Django.
+      - Worked as a full-stack software developer in a team of three developers. Operated and developed the website itdagene.no using React and Django.
 
   - company: Aboveit
-    position: Summer Intern
+    position: Full-stack Developer, Summer Intern
     location: Oslo, NO
     start_date: June 2024
     end_date: August 2024
@@ -46,22 +66,13 @@ experiences:
       - Took initiative to develop a unit testing framework that ensures lasting code quality in the project.
 
   - company: Kateter
-    position: Summer Intern
+    position: Software Developer, Summer Intern
     location: Oslo, NO
     start_date: June 2023
     end_date: August 2023
     description:
       - Kateter (kateter.no) is an online learning platform for university students in Norway.
       - Worked in a team of four and developed an interactive visualization tool for mathematics using TypeScript, Next.js, and Three.js.
-
-  - company: NTNU
-    position: Teaching Assistant
-    location: Trondheim, NO
-    start_date: August 2023
-    end_date: present
-    description:
-      - Teaching Assistant in TDT4109 Information Technology, Introduction (Autumn 2023, 2024 \& 2025) and TDT4100 Object-Oriented Programming (Spring 2024).
-      - Provides guidance in Python, Java, and object-oriented programming to IT students.
 
 projects:
   - name: Kakoune Qt
@@ -88,6 +99,7 @@ skills:
       - C
       - C\#
       - Java
+      - Kotlin
       - Python
       - TypeScript
       - JavaScript
@@ -101,6 +113,8 @@ skills:
       - Gin
       - OpenGL
       - Google Spanner
+      - Micronaut
+      - Postgres
       - MongoDB
       - React
       - Next.js
@@ -112,4 +126,6 @@ skills:
       - Javafx
       - Drone
       - Cypress
+      - AWS S3
+      - AWS OpenSearch
       - GNU/Linux
