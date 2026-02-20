@@ -209,7 +209,37 @@
 
 
     \section{{"{"}}{{or .Translations.work "Work"}}{{"}"}}
-      {{ range $val := .Experiences }}
+      {{ range $val := .Work }}
+
+        \begin{twocolentry}{
+            {{$val.StartDate}} – {{$val.EndDate}}
+        }
+        \textbf{{"{"}}{{$val.Name}}{{"}"}}
+        \end{twocolentry}
+
+        \begin{twocolentry}{
+            \textit{{"{"}}{{$val.Location}}{{"}"}}
+        }
+        \textit{{"{"}}{{$val.Title}}{{"}"}}
+        \end{twocolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \begin{highlights}
+              {{ range $s := $val.Sentences }}
+                \item {{$s}}
+                \vspace{0.1 cm}
+              {{end}}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.8 cm}
+      {{ end }}
+
+    \section{{"{"}}{{or .Translations.volunteering "Volunteering"}}{{"}"}}
+      {{ range $val := .Volunteering }}
 
         \begin{twocolentry}{
             {{$val.StartDate}} – {{$val.EndDate}}

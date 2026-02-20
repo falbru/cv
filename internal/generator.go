@@ -52,7 +52,8 @@ type Skillset struct {
 type CV struct {
 	PersonalInfo `yaml:"personal_info"`
 	Educations   []Education       `yaml:"education"`
-	Experiences  []Experience      `yaml:"experiences"`
+	Work         []Experience      `yaml:"work"`
+	Volunteering []Experience      `yaml:"volunteering"`
 	Projects     []Project         `yaml:"projects"`
 	Skills       []Skillset        `yaml:"skills"`
 	Translations map[string]string `yaml:"translations"`

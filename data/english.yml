@@ -13,27 +13,22 @@ education:
     location: Trondheim, NO
     start_date: August 2022
     end_date: present
-
-experiences:
-  - company: Webkom
-    position: Leader \& Software Developer
-    location: Trondheim, NO
-    start_date: September 2022
+  - institution: Pusan National University
+    degree: Exchange student
+    location: Busan, KR
+    start_date: March 2026
     end_date: present
-    description:
-      - Webkom is the committee that develops web solutions for the student organization Abakus. We operate abakus.no, the admission system, and the voting system for Abakus. Our services run on both our own servers and in the cloud.
-      - Full-stack developer with expertise in TypeScript, React, Next.js, Django, and Docker.
-      - Served as leader from November 2023 to February 2025. Led the committee's work and vision, and represented the committee externally. Was responsible for weekly work sessions with 25 members, organizing teams and managing projects to ensure deadlines were met.
 
+work:
   - company: NTNU
     position: Student \& Teaching Assistant
     location: Trondheim, NO
     start_date: August 2023
-    end_date: present
+    end_date: November 2025
     description:
       - Student Assistant in TDT4109 Information Technology, Introduction (Autumn 2023, 2024 \& 2025) and TDT4100 Object-Oriented Programming (Spring 2024).
       - Teaching Assistant in TDT4200 Parallel Computing (Autumn 2025).
-      - Provides guidance in C, Python and Java programming to IT students.
+      - Provided guidance in C, Python and Java programming to IT students.
 
   - company: Capra Consulting
     position: Technical Team Lead, Summer Intern
@@ -45,6 +40,36 @@ experiences:
       - Full-stack developer working with React frontend and Kotlin (Micronaut) backend, integrated with AWS services (S3, OpenSearch).
       - Served as technical team leader and coordinated daily standup meetings, ensured progress, and communicated project status to the product owner.
 
+  - company: Aboveit
+    position: Full-stack Developer, Summer Intern
+    location: Oslo, NO
+    start_date: June 2024
+    end_date: August 2024
+    description:
+      - Together with six other developers, developed new features for a service that digitalizes shift schedules for nurses.
+      - Full-stack developer with TypeScript/React in frontend, and Go/Gin microservices in backend, with Google Spanner as database.
+      - Took initiative to develop a unit testing framework that ensures lasting code quality in the project.
+
+  - company: Kateter
+    position: Software Developer, Summer Intern
+    location: Oslo, NO
+    start_date: June 2023
+    end_date: August 2023
+    description:
+      - Kateter (kateter.no) is an online learning platform for university students in Norway.
+      - Worked in a team of four and developed an interactive visualization tool for mathematics using TypeScript, Next.js, and Three.js. Wrote WebGL shaders in GLSL.
+
+volunteering:
+  - company: Webkom
+    position: Leader \& Software Developer
+    location: Trondheim, NO
+    start_date: September 2022
+    end_date: present
+    description:
+      - Webkom is the committee that develops web solutions for the student organization Abakus. We operate abakus.no, the admission system, and the voting system for Abakus. Our services run on both our own servers and in the cloud.
+      - Full-stack developer with expertise in TypeScript, React, Next.js, Django, and Docker.
+      - Served as leader from November 2023 to February 2025. Led the committee's work and vision, and represented the committee externally. Was responsible for weekly work sessions with 25 members, organizing teams and managing projects to ensure deadlines were met.
+
   - company: itDAGENE
     position: Board Member \& Software Developer
     location: Trondheim, NO
@@ -55,32 +80,15 @@ experiences:
       - Board member making decisions on behalf of 100+ students.
       - Worked as a full-stack software developer in a team of three developers. Operated and developed the website itdagene.no using React and Django.
 
-  - company: Aboveit
-    position: Full-stack Developer, Summer Intern
-    location: Oslo, NO
-    start_date: June 2024
-    end_date: August 2024
-    description:
-      - Together with six other developers, developed new features for a service that digitalizes shift schedules for nurses.
-      - Worked as backend developer using Go, Gin, and Google Spanner technologies.
-      - Took initiative to develop a unit testing framework that ensures lasting code quality in the project.
-
-  - company: Kateter
-    position: Software Developer, Summer Intern
-    location: Oslo, NO
-    start_date: June 2023
-    end_date: August 2023
-    description:
-      - Kateter (kateter.no) is an online learning platform for university students in Norway.
-      - Worked in a team of four and developed an interactive visualization tool for mathematics using TypeScript, Next.js, and Three.js.
-
 projects:
-  - name: Kakoune Qt
+  - name: Kakodemon
     description:
-      - Developing a graphical user interface for a terminal-based code editor to increase user-friendliness.
-      - Developed with C++ and the Qt library, using knowledge of operating systems and network concepts such as IPC and JSON-RPC.
-    github_url: github.com/falbru/kakoune-qt
-    start_date: September 2023
+      - Developing a GPU-accelerated graphical interface for Kakoune, a terminal-based code editor.
+      - Developed with C++ and OpenGL, structured according to hexagonal architecture with MVC in the application core.
+      - Communicates with the Kakoune backend via JSON-RPC, with parallel handling of requests through multithreading.
+      - "Built for Linux desktop with tight integration: FontConfig and FreeType for font handling, and POSIX concepts such as named pipes for inter-process communication."
+    github_url: github.com/falbru/kakodemon
+    start_date: July 2025
     end_date: present
 
   - name: Chess Tournament Website
